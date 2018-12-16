@@ -31,25 +31,43 @@
             </li>
         </ul>
     </header>
-    <div id="left-side-bar">
-        <div>News</div>
-        <div>
-            <h2>Contact</h2>
-            <p>Hire me!</p>
-            <form action="">
-                <label class="form" for="email-input">Your email</label>
-                <input class="form" id="email-input" type="email">
-                <button class="form" >Send</button>
-            </form>
+    <div id="content-wrap">
+        <div id="left-side-bar">
+            <div>News</div>
+            <div>
+                <h2>Contact</h2>
+                <p>Hire me!</p>
+                <form action="#">
+                    <label for="email-field">Your email</label>
+                    <input id="email-field" type="email">
+                    <button>Send</button>
+                </form>
+            </div>
         </div>
-    </div>
-    <div id="content">
-        <div id="home-page">
-            <h2>Home</h2>
-            <p>Here you can find more about me, <br>
+        <div id="content">
+            <div class="page-block" id="home-page">
+                <h2>Home</h2>
+                <p>Here you can find more about me, <br>
                     Enjoy :)</p>
+            </div>
+            <div class="page-block" style="display: block" id="skills-page">
+                <h2>Skills</h2>
+                <ul></ul>
+            </div>
+            <div class="page-block" id="education-page">
+                <h2>Education</h2>
+                <ul>
+                    <li>Bioter university - bachelor's degree</li>
+                    <li>College - The forestry college of Gurghiu</li>
+                </ul>
+            </div>
+            <div class="page-block" id="languages-page">
+                <h2>Languages</h2>
+            </div>
+            <div class="page-block" id="experience-page">
+                <h2>Experience</h2>
+            </div>
         </div>
-
     </div>
     <script src="script.js"></script>
 </body>
